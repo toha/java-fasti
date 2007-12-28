@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: com.fasti.fasti.AppTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.004 sec <<< FAILURE!
+testSetCalendarToCaldav(com.fasti.fasti.AppTest)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.UnsupportedOperationException: not implemented
+	at Fasti.FastiSqliteConnector.StandardActions.FastiSqliteActionGetCalendar.runAction(FastiSqliteActionGetCalendar.java:25)
+	at Fasti.FastiSqliteConnector.StandardActions.FastiSqliteActionGetCalendar.runAction(FastiSqliteActionGetCalendar.java:16)
+	at Fasti.FastiData.FastiActionWorker.runAction(FastiActionWorker.java:168)
+	at com.fasti.fasti.AppTest.testSetCalendarToCaldav(AppTest.java:119)
+

@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: Fasti.FastiSqliteConnector.StandardActions.FastiSqliteActionAddTodoTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.103 sec <<< FAILURE!
+testAddTodoToSqlite(Fasti.FastiSqliteConnector.StandardActions.FastiSqliteActionAddTodoTest)  Time elapsed: 0.097 sec  <<< ERROR!
+java.lang.UnsupportedOperationException: Not supported yet.
+	at Fasti.FastiSqliteConnector.StandardActions.FastiSqliteActionAddTodo.runAction(FastiSqliteActionAddTodo.java:29)
+	at Fasti.FastiSqliteConnector.StandardActions.FastiSqliteActionAddTodoTest.testAddTodoToSqlite(FastiSqliteActionAddTodoTest.java:58)
+

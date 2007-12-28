@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: Fasti.FastiSqliteConnector.StandardActions.FastiSqliteActionAddEventTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.017 sec <<< FAILURE!
+testSaveState(Fasti.FastiSqliteConnector.StandardActions.FastiSqliteActionAddEventTest)  Time elapsed: 0.011 sec  <<< ERROR!
+java.lang.UnsupportedOperationException: Not supported yet.
+	at Fasti.FastiSqliteConnector.StandardActions.FastiSqliteActionAddEvent.runAction(FastiSqliteActionAddEvent.java:26)
+	at Fasti.FastiSqliteConnector.StandardActions.FastiSqliteActionAddEventTest.testSaveState(FastiSqliteActionAddEventTest.java:71)
+

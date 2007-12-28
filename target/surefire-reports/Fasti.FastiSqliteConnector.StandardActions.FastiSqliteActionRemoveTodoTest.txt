@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: Fasti.FastiSqliteConnector.StandardActions.FastiSqliteActionRemoveTodoTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.004 sec <<< FAILURE!
+testRemoveTodoFromSqlite(Fasti.FastiSqliteConnector.StandardActions.FastiSqliteActionRemoveTodoTest)  Time elapsed: 0.001 sec  <<< ERROR!
+Fasti.util.Exceptions.FastiDataException: error getting given connector
+	at Fasti.FastiData.FastiActionWorker.createAction(FastiActionWorker.java:85)
+	at Fasti.FastiSqliteConnector.StandardActions.FastiSqliteActionRemoveTodoTest.testRemoveTodoFromSqlite(FastiSqliteActionRemoveTodoTest.java:49)
+

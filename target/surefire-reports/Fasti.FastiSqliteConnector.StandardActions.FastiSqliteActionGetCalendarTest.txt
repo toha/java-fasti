@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: Fasti.FastiSqliteConnector.StandardActions.FastiSqliteActionGetCalendarTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.099 sec <<< FAILURE!
+testGetCalendarFromSqlite(Fasti.FastiSqliteConnector.StandardActions.FastiSqliteActionGetCalendarTest)  Time elapsed: 0.091 sec  <<< ERROR!
+java.lang.UnsupportedOperationException: not implemented
+	at Fasti.FastiSqliteConnector.StandardActions.FastiSqliteActionGetCalendar.runAction(FastiSqliteActionGetCalendar.java:25)
+	at Fasti.FastiSqliteConnector.StandardActions.FastiSqliteActionGetCalendar.runAction(FastiSqliteActionGetCalendar.java:16)
+	at Fasti.FastiData.FastiActionWorker.runAction(FastiActionWorker.java:168)
+	at Fasti.FastiSqliteConnector.StandardActions.FastiSqliteActionGetCalendarTest.testGetCalendarFromSqlite(FastiSqliteActionGetCalendarTest.java:49)
+

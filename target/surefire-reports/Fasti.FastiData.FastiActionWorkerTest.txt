@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: Fasti.FastiData.FastiActionWorkerTest
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.013 sec <<< FAILURE!
+testActionWorker(Fasti.FastiData.FastiActionWorkerTest)  Time elapsed: 0.004 sec  <<< ERROR!
+Fasti.util.Exceptions.FastiDataException: error getting given connector
+	at Fasti.FastiData.FastiActionWorker.createAction(FastiActionWorker.java:85)
+	at Fasti.FastiData.FastiActionWorkerTest.testActionWorker(FastiActionWorkerTest.java:42)
+
